@@ -1,0 +1,13 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canva{
+  display: block;
+}
+
+input{
+  margin-left: 168px;
+  width: 60px;
+  font-size:16px;
+}
