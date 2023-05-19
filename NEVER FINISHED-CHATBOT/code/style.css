@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+
+html {
+    margin: 0;
+    padding: 0;
+    background-color: #36393e;
+    position: relative;
+    overflow: hidden;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#app {
+    /* position: relative; */
+    /* background-color: aqua; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 100vh;
+}
+
+#phone {
+    position: relative;
+    /* background-color: blueviolet; */
+    width: 55%;
+    height: 75%;
+    /* margin-top: 50%; */
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(imgs/phone_empty.png);
+    background-position: center top;
+    background-size: 100% 100.5%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* CENTER */
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#emptyspace {
+    padding-top: 13.4%;
+    /* border: 1px solid red; */
+}
+
+#czat {
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid burlywood; */
+    width: 94%;
+    height: 80%;
+    scrollbar-width: 1px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    /* Chrome, Edge, and Safari */
+}
+
+#wiad {
+    width: 90%;
+    font-size: 90%;
+    letter-spacing: 1.1px;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+#wypisywanie {
+    /* border: 1px solid rgb(6, 64, 255); */
+    border: 1px solid green;
+    width: 93%;
+    height: 9.5%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+    display: none;
+}
+
+.choosemenu input {
+    width: 30%;
+    text-align: center;
+    font-size: 9px;
+    min-height: 25px;
+    height: fit-content;
+    border-radius: 4px;
+    border: 1.5px solid #c4c1c1;
+    background-color: rgb(196, 56, 201);
+}
+
+.choosemenu input:hover {
+    animation: animacjamenu 1s ease-in;
+}
+
+.choosemenu input:focus {
+    background-color: rgb(248, 0, 248);
+    animation: none;
+}
+
+@keyframes animacjamenu {
+    50% {
+        background-color: rgb(184, 9, 184);
+    }
+}
+
+#cont {
+    clear: both;
+    width: 40%;
+    min-height: 20px;
+    height: fit-content;
+    text-align: center;
+    /* margin-left: auto;
+    margin-right: auto;
+    margin-top:2px; */
+    font-size: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+#pytanko {
+    font-size: 14px;
+    float: right;
+    margin-top: 9px;
+    margin-right: 4px;
+    background-color: rgb(184, 9, 184);
+    padding: 4px;
+    padding-right: 7px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+#odpowiedz {
+    font-size: 14px;
+    clear: both;
+    float: left;
+    padding-right: 4px;
+    background-color: rgb(223, 193, 223);
+    padding: 4px;
+    margin-left: 7px;
+    margin-bottom: 15px;
+    margin-top: -9px;
+    border-radius: 8px;
+}
+
+#odpowiedzlink {
+    font-size: 14px;
+    clear: both;
+    float: left;
+    padding-right: 4px;
+    background-color: rgb(223, 193, 223);
+    padding: 4px;
+    margin-left: 7px;
+    margin-bottom: 15px;
+    margin-top: -9px;
+    border-radius: 8px;
+}
+
+#czat a {
+    color: rgb(31, 117, 209);
+    letter-spacing: 0.75px;
+    text-decoration: none;
+    font-style: normal;
+}
+
+#ziobro p {
+    letter-spacing: 12px;
+    font-size: large;
+}
+
+#odpowiedzimg {
+    font-size: 14px;
+    clear: both;
+    float: left;
+    padding-right: 4px;
+    background-color: rgb(223, 193, 223);
+    padding: 4px;
+    margin-left: 7px;
+    margin-bottom: 15px;
+    margin-top: -9px;
+    border-radius: 8px;
+    width: 100px;
+    height: 85px;
+}
+
+#answ121,
+#answ122 {
+    font-size: 10px;
+    text-align: center;
+}
+
+#startmenu {
+    border: 1px solid green;
+    width: 93%;
+    height: 12%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+input[onclick="startapp()"] {
+    position: relative;
+    width: fit-content;
+    height: min-content;
+    text-align: center;
+    padding: 4px;
+    font-size: 85%;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+
+/* ODPOWIEDZI  */
+
+#w11 {
+    display: block;
+}
+
+#w12 {
+    display: none;
+}
+
+#w131 {
+    display: none;
+}
+
+#w132 {
+    display: none;
+}
+
+#w1312 {
+    display: none;
+}
+#TAKNIESPADAJ1{
+  display:none;
+}
+#ODPDLATAKNIE1{
+  display:none;
+}
+#TAKCOLIBE1{
+  display:none;
+}

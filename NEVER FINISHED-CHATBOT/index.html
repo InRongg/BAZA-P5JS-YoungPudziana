@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>OPEN AI</title>
+    <script src="code/script.js"></script>
+    <script src="code/odpowiedzi.js"></script>
+    <link rel="stylesheet" href="code/style.css">
+</head>
+
+<body>
+    <div id="app">
+        <div id="phone" class="center">
+            <div id="emptyspace"></div>
+            <div id="czat"></div>
+            <div id="wypisywanie">
+                <div class="choosemenu" id="w11">
+                    <!-- ANSW1 WARIANT 1 -->
+                    <input type="button" value="Cześć" onclick="odp111()" id="answ111">
+                    <input type="button" value="Siema" onclick="odp112()" id="answ112">
+                    <input type="button" value="Hejka❤" onclick="odp113()" id="answ113">
+                </div>
+                <div class="choosemenu" id="w12">
+                    <!-- ANSW 2 WARIANT 1 -->
+                    <input type="button" value="Słucham muzyki" onclick="odp121()" id="answ121">
+                    <input type="button" value="Idę na trening" onclick="odp122()" id="answ122">
+                </div>
+                <div class="choosemenu" id="w131">
+                    <!-- ANSW3 WYBOR 1 ->MUZYKA WARIANT 1 -->
+                    <input type="button" value="Anime piosenki" onclick="odp131()" id="answ131">
+                    <input type="button" value="Rap" onclick="odp132()" id="answ132">
+                    <input type="button" value="Jazz" onclick="odp133()" id="answ133">
+                </div>
+                              <div class="choosemenu" id="TAKNIESPADAJ1">
+                    <!-- ANSW3 WYBOR ANIME SONG -> MUZYKA WARIANT 1 -->
+                    <input type="button" value="Tak" onclick="TAK1()" id="TAK1">
+                    <input type="button" value="Nie" onclick="NIE1()" id="NIE1">
+                    <input type="button" value="Spadaj" onclick="SPADAJ1()" id="SPADAJ1">
+                </div>
+                <div class="choosemenu" id="ODPDLATAKNIE1">
+                    <!-- ANSW3 WYBOR ANIME SONG -> ODP NA TAK I NIE -->
+                    <input type="button" value="OK" onclick="OK1()" id="OK1">
+                    <input type="button" value="XDDD" onclick="XDD1()" id="XDD1">
+                    <input type="button" value="WTF!?" onclick="WTF1()" id="WTF1">
+                </div>
+                              <div class="choosemenu" id="TAKCOLIBE1">
+                    <!-- ANSW3 WYBOR ANIME SONG -> ODP NA TAK I NIE -->
+                    <input type="button" value="TAK2" onclick="TAK2()" id="TAK2">
+                    <input type="button" value="CO!?" onclick="WAS1()" id="WAS1">
+                    <input type="button" value="LUBIE ICH" onclick="LIBE1()" id="LIBE1">
+                </div>
+                <div class="choosemenu" id="w132">
+                    <!-- ANSW3 WYBOR 2 -> TRENING WARIANT 1 -->
+                    <input type="button" value="biegam" onclick="odp1311()" id="answ1311">
+                    <input type="button" value="chodzę na siłownie" onclick="odp1321()" id="answ1321">
+                    <input type="button" value="kickboxing" onclick="odp1331()" id="answ1331">
+                </div>
+                <!-- <input type="text" placeholder="Napisz wiadomość" id="wiad"><br> -->
+                <input type="button" value="WYŚLIJ ▶" onclick="wiadomosc()" id="cont">
+            </div>
+            <div id="startmenu">
+                <input type="button" value="START" onclick="startapp()">
+            </div>
+        </div>
+</body>
+
+</html>
