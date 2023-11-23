@@ -16,7 +16,7 @@ let tablica = [0,0]
 let pary=0;
 let karty = [0,0,0,0,0,0,0,0,0]
 let lista=[]
-
+// kod P5JS
 function preload(){
   kartabg = loadImage("imgs/kartabg.jpg");
   zdj1= loadImage("imgs/WielkiBo1.jpg")
